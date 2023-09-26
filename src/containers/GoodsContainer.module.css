@@ -1,0 +1,19 @@
+.wrapp_goods {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.wrapp_goods h1 {
+    display: flex;
+    margin: 50px 500px;
+    color: #635f57;
+
+}
+
+.title {
+    color: #635f57;
+    font-size: 24px;
+    margin-left: 160px;
+}

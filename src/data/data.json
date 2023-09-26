@@ -1,0 +1,271 @@
+{
+    "currentLanguage": "en",
+    "language": {
+        "en": "en",
+        "ua": "ua",
+        "ru": "ru"
+    },
+    "currentMoney": "euro",
+    "money": {
+        "dollar": "$",
+        "euro": "€",
+        "rub": "₽",
+        "hryvnia": "₴"
+    },
+    "search": "",
+    "baner": {
+        "slide1": {
+            "url": "./img/slider/banner1.png",
+            "text": "ALUMINUM CLUB"
+        },
+        "slide2": {
+            "url": "./img/slider/banner2.png",
+            "text": "enjoy"
+        },
+        "slide3": {
+            "url": "./img/slider/banner3.png",
+            "text": "choice for you"
+        }
+    },
+    "store": {
+        "en": {
+            "header": {
+                "section1": {
+                    "language": "Language",
+                    "currency": "Currency",
+                    "log": "Log In",
+                    "sign": "Sing Up"
+                },
+                "section2": {
+                    "home": "home",
+                    "women": "women",
+                    "men": "men",
+                    "other": "other",
+                    "search": "search",
+                    "cart": "cart"
+                }
+            },
+            "cart": {
+                "empty": "cart is empty",
+                "price": "Price",
+                "quantity": "Quantity",
+                "sum": "Sum",
+                "total": "Total",
+                "buy": "buy",
+                "pay": "to pay"
+            },
+            "footer": {
+                "car": "Free shipping on orders over",
+                "phone": "call us! toll free",
+                "info": "information",
+                "contact": "Contact Us"
+            },
+            "error": {
+                "error": "error",
+                "page": "page not found"
+            },
+            "login": {
+                "enter": "enter",
+                "login": "login",
+                "password": "password",
+                "btn": "login"
+            },
+            "reg": {
+                "enter": "enter",
+                "login": "login",
+                "email": "email",
+                "password": "password",
+                "passwordConfirm": "сonfirm password",
+                "btn": "register",
+                "not": "password do not match"
+            }
+        },
+        "ua": {
+            "header": {
+                "section1": {
+                    "language": "Мова",
+                    "currency": "Валюта",
+                    "log": "Увійти",
+                    "sign": "Регістрація"
+                },
+                "section2": {
+                    "home": "додому",
+                    "women": "жіночі",
+                    "men": "чоловічі",
+                    "other": "інше",
+                    "search": "пошук",
+                    "cart": "кошик"
+                }
+            },
+            "cart": {
+                "empty": "кошик пустий",
+                "price": "Ціна",
+                "quantity": "Кількість",
+                "sum": "Сумма",
+                "total": "Устого",
+                "buy": "купити",
+                "pay": "к оплате"
+            },
+            "footer": {
+                "car": "Безкоштовна доставка при замовленні понад",
+                "phone": "Дзвоніть нам! безкоштовний",
+                "info": "інформація",
+                "contact": "Зв'яжіться з нами"
+            },
+            "error": {
+                "error": "помилка",
+                "page": "сторінку не знайдено"
+            },
+            "login": {
+                "enter": "введіть",
+                "login": "логін",
+                "password": "пароль",
+                "btn": "увійти"
+            },
+            "reg": {
+                "enter": "введіть",
+                "login": "логін",
+                "email": "електроннa поштa",
+                "password": "пароль",
+                "passwordConfirm": "підтвердити пароль",
+                "btn": "зареєструватися",
+                "not": "паролі не співпадають"
+            }
+        },
+        "ru": {
+            "header": {
+                "section1": {
+                    "language": "Язык",
+                    "currency": "Валюта",
+                    "log": "Войти",
+                    "sign": "Регистация"
+                },
+                "section2": {
+                    "home": "домой",
+                    "women": "женские",
+                    "men": "мужские",
+                    "other": "другие",
+                    "search": "поиск",
+                    "cart": "корзина"
+                }
+            },
+            "cart": {
+                "empty": "корзина пуста",
+                "price": "Цена",
+                "quantity": "Количество",
+                "sum": "Сумма",
+                "total": "Всего",
+                "buy": "купить",
+                "pay": "к оплате"
+            },
+            "footer": {
+                "car": "Бесплатная доставка при заказе свыше",
+                "phone": "Звоните нам! бесплтано",
+                "info": "информация",
+                "contact": "Связаться с нами"
+            },
+            "error": {
+                "error": "ошибка",
+                "page": "страница не найдена"
+            },
+            "login": {
+                "enter": "введіть",
+                "login": "логин",
+                "password": "пароль",
+                "btn": "войти"
+            },
+            "reg": {
+                "enter": "введіть",
+                "login": "логин",
+                "email": "электронная почта",
+                "password": "пароль",
+                "passwordConfirm": "подтвердите пароль",
+                "btn": "зарегистрироваться",
+                "not": "пароли не совпадают"
+            }
+        }
+    },
+    "goods": [
+        {
+            "id": "G1",
+            "brand": "Lorem",
+            "imgURL": "./img/goods/glass1.png",
+            "sale": false,
+            "title": "Lorem Ipsum is simply.",
+            "price": "388",
+            "gender": "women"
+        },
+        {
+            "id": "G2",
+            "brand": "Nullam",
+            "imgURL": "./img/goods/glass2.png",
+            "sale": false,
+            "title": "Nullam vestibulum.",
+            "price": "90",
+            "gender": "women"
+        },
+        {
+            "id": "G3",
+            "brand": "Donec",
+            "imgURL": "./img/goods/glass3.png",
+            "sale": true,
+            "title": "Donec et lorem suscipit.",
+            "price": "300",
+            "gender": "women"
+        },
+        {
+            "id": "G4",
+            "brand": "Curabitur",
+            "imgURL": "./img/goods/glass4.png",
+            "sale": false,
+            "title": "Curabitur pretium dui.",
+            "price": "180",
+            "gender": "women"
+        },
+        {
+            "id": "G5",
+            "brand": "Lorem",
+            "imgURL": "./img/goods/glass5.png",
+            "sale": false,
+            "title": "Lorem Ipsum is simply.",
+            "price": "270",
+            "gender": "men"
+        },
+        {
+            "id": "G6",
+            "brand": "Lorem",
+            "imgURL": "./img/goods/glass6.png",
+            "sale": false,
+            "title": "Lorem Ipsum is simply.",
+            "price": "25",
+            "gender": "men"
+        },
+        {
+            "id": "G7",
+            "brand": "Curabitur",
+            "imgURL": "./img/goods/glass7.png",
+            "sale": false,
+            "title": "Curabitur pretium dui.",
+            "price": "185",
+            "gender": "unisex"
+        },
+        {
+            "id": "G8",
+            "brand": "Donec",
+            "imgURL": "./img/goods/glass8.png",
+            "sale": false,
+            "title": "Donec et lorem suscipit.",
+            "price": "85",
+            "gender": "unisex"
+        },
+        {
+            "id": "G9",
+            "brand": "Nullam",
+            "imgURL": "./img/goods/glass9.png",
+            "sale": false,
+            "title": "Nullam vestibulum.",
+            "price": "105",
+            "gender": "unisex"
+        }
+    ]
+}

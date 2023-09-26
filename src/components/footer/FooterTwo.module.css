@@ -1,0 +1,128 @@
+.container {
+    max-width: 1400px;
+    height: 335px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 185px;
+    align-items: center;
+    background-color: #39a0b9;
+    font-size: 18px;
+    color: white;
+}
+
+.wrapp {
+    height: 230px;
+    display: flex;
+    width: 235px;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 185px;
+}
+
+.wrapp_fb {
+    display: flex;
+    flex-direction: column;
+}
+
+.fb_icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.fb_icon span {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.fb_icon img {
+    width: 47px;
+}
+
+.fb_photo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    position: relative;
+    padding-top: 5px;
+    border-top: 1px solid #4cb1ca;
+    border-bottom: 1px solid #4cb1ca;
+}
+
+.fb_photo img {
+    width: 49px;
+    margin: 4.88px;
+}
+
+.fb_i {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.twit {
+    margin-top: 24px;
+    display: flex;
+    font-size: 13px;
+}
+
+.twit img {
+    width: 43px;
+    height: 43px;
+    margin-right: 15px;
+}
+
+.twit p {
+    text-align: justify;
+    width: 100%;
+}
+
+.wrapp_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    font-size: 13px;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+
+.info ul {
+    list-style: '>   ';
+}
+
+.info ul li {
+    margin-bottom: 10px;
+}
+
+.wrapp_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-top: 24px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact span {
+    margin-bottom: 10px;
+}
+
+.contact_img {
+    margin-top: 15px;
+    border-top: 1px solid #4cb1ca;
+    padding-top: 15px;
+}
+
+.contact_img img {
+    margin-right: 5px;
+    cursor: pointer;
+
+}

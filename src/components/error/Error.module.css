@@ -1,0 +1,31 @@
+.container {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    color: #464148;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.wrapp {
+    display: flex;
+}
+
+.wrapp p {
+    font-size: 25px;
+}
+
+.wrapp span {
+    font-size: 45px;
+}
+
+.page {
+    font-size: 13px;
+    margin-left: 75px;
+}

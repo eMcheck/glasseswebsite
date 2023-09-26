@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    max-width: 1400px;
+    height: 40px;
+    background-color: #4cb1ca;
+    color: white;
+    margin: 0 auto;
+    padding: 0 185px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.wrapp_changes {
+    display: flex;
+}
+
+.wrapp {
+    margin-right: 20px;
+}
+
+.wrapp span {
+    margin-right: 10px;
+}
+
+.select {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+
+.select option {
+    background-color: #4cb1ca;
+    width: 50px;
+}
+
+
+.wrapp_link :first-child::after {
+    content: '';
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+.wrapp_link a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}

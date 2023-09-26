@@ -1,0 +1,41 @@
+.container {
+    width: 235px;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0px 0px 5px gray;
+    color: #464148;
+}
+
+.img {
+    width: 215px;
+}
+
+.wrapp {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.wrapp_price {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wrapp_price button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.money {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #88b73d;
+}
+
+.cartAnim {
+    transition: transform .5s;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+    flex: 1 0 100%;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    margin: 200px 250px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 15px;
+}
+
+.img {
+    display: flex;
+    margin: 0 auto;
+    max-height: 1400px;
+    width: 100%;
+    object-fit: contain;
+}

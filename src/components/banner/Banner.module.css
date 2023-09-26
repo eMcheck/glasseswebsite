@@ -1,0 +1,45 @@
+.container {
+    max-width: 1400px;
+    height: 470px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.wpar_button {
+    position: relative;
+    z-index: 1;
+}
+
+.buttonLeft {
+    float: left;
+}
+
+.buttonRight {
+    float: right;
+}
+
+
+.wpar_button button {
+    margin: 170px 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: #635f57;
+    border: 1px solid #635f57;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.wrapp_slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
