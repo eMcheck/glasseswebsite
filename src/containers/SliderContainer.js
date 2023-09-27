@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelector, useDispatch, useStore } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import {
     selectData
@@ -10,10 +10,6 @@ import Slider from '../components/slider/Slider';
 
 export default function SliderContainer() {
     const data = useSelector(selectData);
-    const state = data.store[data.currentLanguage];
-
-
-
     return (
         <>
             <Slider />

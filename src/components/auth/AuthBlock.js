@@ -2,8 +2,6 @@ import cls from './AuthBlock.module.css';
 
 export default function AuthBlock(props) {
 
-
-
     const authHendler = (event) => {
         event.preventDefault()
         let e = event.target;
@@ -12,9 +10,6 @@ export default function AuthBlock(props) {
         alert('Hello ' + e.login.value.toUpperCase())
 
     }
-
-
-
 
     return (
         <div className={cls.container}>

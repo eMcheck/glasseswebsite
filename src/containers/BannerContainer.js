@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch, useStore } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import Baner from '../components/banner/Banner';
 
@@ -12,7 +12,6 @@ export default function BannerContainer() {
 
     const [items, setItems] = useState([]);
     const [slide, setSlide] = useState(0);
-
 
 
     useEffect(() => {

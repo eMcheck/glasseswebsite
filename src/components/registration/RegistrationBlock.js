@@ -13,10 +13,8 @@ export default function RegistrationBlock(props) {
         } else {
             alert('registered')
         }
-
-
     }
-    //passwordConfirm
+
     return (
         <div className={cls.container}>
 

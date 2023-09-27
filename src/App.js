@@ -17,7 +17,7 @@ import {
   selectData, changeLanguage, changeMoney
 } from './store/initData';
 import {
-  selectGoods, init
+  init
 } from './store/cartGoods';
 
 import { useEffect } from 'react';

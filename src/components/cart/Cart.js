@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import cls from './Cart.module.css';
 import changeMoney from '../../helreps/changeMoney';
 

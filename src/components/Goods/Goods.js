@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import cls from './Goods.module.css';
-import { useEffect } from "react";
 import changeMoney from '../../helreps/changeMoney'
 
 export default function Goods(props) {
