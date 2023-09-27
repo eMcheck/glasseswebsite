@@ -9,7 +9,6 @@ import Registration from '../components/registration/RegistrationBlock';
 
 export default function RegistrationContainer() {
     const data = useSelector(selectData);
-    localStorage.removeItem("search");
 
     return (
         <>

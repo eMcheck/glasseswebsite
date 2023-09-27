@@ -15,7 +15,6 @@ export default function CartContainer(props) {
     const data = useSelector(selectData);
     const cart = useSelector(selectGoods);
     const dispatch = useDispatch();
-    localStorage.removeItem("search");
 
     const [isEmpry, setIsEmpry] = useState(true)
 
@@ -27,7 +26,7 @@ export default function CartContainer(props) {
         if (cartLocal) {
             setIsEmpry(false)
         }
-    })
+    }, [cart])
 
     let handlerCart = (event) => {
         event.preventDefault();

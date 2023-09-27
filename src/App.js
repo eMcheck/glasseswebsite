@@ -35,15 +35,11 @@ function App() {
     if (money) {
       dispatch(changeMoney(money));
     }
-
     let cart = JSON.parse(localStorage.getItem('cart'));
     if (cart) {
       dispatch(init(cart))
     }
   }, [data])
-
-
-
 
   const titleText = data.store[data.currentLanguage].header.section2;
 

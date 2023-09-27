@@ -78,7 +78,8 @@
                 "passwordConfirm": "сonfirm password",
                 "btn": "register",
                 "not": "password do not match"
-            }
+            },
+            "search": "not found"
         },
         "ua": {
             "header": {
@@ -130,7 +131,8 @@
                 "passwordConfirm": "підтвердити пароль",
                 "btn": "зареєструватися",
                 "not": "паролі не співпадають"
-            }
+            },
+            "search": "не знайдено"
         },
         "ru": {
             "header": {
@@ -182,7 +184,8 @@
                 "passwordConfirm": "подтвердите пароль",
                 "btn": "зарегистрироваться",
                 "not": "пароли не совпадают"
-            }
+            },
+            "search": "не найдено"
         }
     },
     "goods": [

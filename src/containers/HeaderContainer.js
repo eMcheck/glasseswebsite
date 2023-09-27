@@ -25,8 +25,16 @@ export default function HeaderContainer() {
         dispatch(changeMoney(event.target.value))
     }
     const hendlerSearch = (event) => {
-        dispatch(search(event.target.value))
-
+        dispatch(search(event.target.value.trim()));
+    }
+    const hendlerSearchPush = (event) => {
+        console.log(event)
+        dispatch(search(event.target.value.trim()));
+        window.location.href = '/search';
+    }
+    const hendlerSearchClick = (text) => {
+        dispatch(search(text.trim()));
+        window.location.href = '/search';
     }
 
     return (
@@ -40,6 +48,8 @@ export default function HeaderContainer() {
             />
             <HeaderNav
                 hendlerSearch={hendlerSearch}
+                hendlerSearchPush={hendlerSearchPush}
+                hendlerSearchClick={hendlerSearchClick}
                 cart={cart}
                 state={state.header.section2}
             />

@@ -41,11 +41,18 @@
     padding: 5px;
 }
 
-.wrapp_search img {
+.wrapp_search button {
     position: absolute;
     left: 150px;
     width: 20px;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.wrapp_search button img {
+    width: 15px;
+    height: 15px;
 }
 
 .wrapp_cart a {

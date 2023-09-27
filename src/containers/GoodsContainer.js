@@ -16,7 +16,6 @@ export default function GoodsContainer(props) {
     const dispatch = useDispatch();
 
     let s = data.search.toLowerCase();
-
     let search = localStorage.getItem('search');
     if (search) {
         s = search.toLowerCase();
@@ -31,11 +30,11 @@ export default function GoodsContainer(props) {
         if (pathname === 'search') {
             let t = e.title.toLowerCase();
             let check = t.indexOf(s);
-            if (check >= 0) {
-                return true
-            }
+            if (check >= 0 && s !== '') return true;
         }
+        return false;
     })
+
     if (folterGoods.length !== 0) {
 
     }
@@ -47,11 +46,9 @@ export default function GoodsContainer(props) {
         money={data.money[data.currentMoney]}
     />)
     if (temp.length === 0) {
-        temp = <h1 >not faund</h1>
+        let text = data.store[data.currentLanguage].search;
+        temp = <h1 >{text.toUpperCase()}</h1>
     }
-
-
-
 
     const hendlerGoods = (event) => {
         event.preventDefault();
