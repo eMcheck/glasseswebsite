@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
-
 import HeaderContainer from './containers/HeaderContainer';
 import HomeContainer from './containers/HomeContainer';
 import SectionContainer from './containers/SectionContainer';
@@ -16,6 +15,7 @@ import './App.css';
 import {
   selectData, changeLanguage, changeMoney
 } from './store/initData';
+
 import {
   init
 } from './store/cartGoods';
@@ -25,6 +25,7 @@ import { useEffect } from 'react';
 function App() {
   const data = useSelector(selectData);
   const dispatch = useDispatch();
+
 
   useEffect(() => {
     let lang = localStorage.getItem('lang');

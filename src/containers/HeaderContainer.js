@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-
+import { useNavigate } from "react-router-dom";
 import HeaderMain from '../components/header/HeaderMain';
 import HeaderNav from '../components/header/HeaderNav';
 
@@ -15,6 +15,8 @@ export default function HeaderContainer() {
     const data = useSelector(selectData);
     const cart = useSelector(selectGoods);
 
+    const navigate = useNavigate()
+
     const dispatch = useDispatch();
     const state = data.store[data.currentLanguage];
 
@@ -28,13 +30,12 @@ export default function HeaderContainer() {
         dispatch(search(event.target.value.trim()));
     }
     const hendlerSearchPush = (event) => {
-        console.log(event)
         dispatch(search(event.target.value.trim()));
-        window.location.href = '/search';
+        navigate("/search");
     }
     const hendlerSearchClick = (text) => {
         dispatch(search(text.trim()));
-        window.location.href = '/search';
+        navigate("/search");
     }
 
     return (

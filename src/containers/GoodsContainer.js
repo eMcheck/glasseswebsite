@@ -35,16 +35,13 @@ export default function GoodsContainer(props) {
         return false;
     })
 
-    if (folterGoods.length !== 0) {
-
-    }
-
     let temp = folterGoods.map(e => < Goods
         key={e.id}
         goods={e}
         currentMoney={data.currentMoney}
         money={data.money[data.currentMoney]}
     />)
+
     if (temp.length === 0) {
         let text = data.store[data.currentLanguage].search;
         temp = <h1 >{text.toUpperCase()}</h1>
@@ -55,7 +52,6 @@ export default function GoodsContainer(props) {
         let t = event.target;
         if (!t.classList.contains('add-cart')) return true;
         dispatch(increment(t.getAttribute('data')));
-        console.log(t)
         t.style.transform = `rotate(-70deg)`;
         setTimeout(() => {
             t.style.transform = `rotate(0deg)`;
